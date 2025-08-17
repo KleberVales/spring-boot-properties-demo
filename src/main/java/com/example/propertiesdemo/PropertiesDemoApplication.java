@@ -1,13 +1,11 @@
-package com.example.springbootpropertiesdemo;
+package com.example.propertiesdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootPropertiesDemoApplication {
-
+public class PropertiesDemoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootPropertiesDemoApplication.class, args);
+        SpringApplication.run(PropertiesDemoApplication.class, args);
     }
-
 }
