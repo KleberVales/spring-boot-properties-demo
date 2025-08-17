@@ -38,7 +38,7 @@ spring-boot-properties-demo
 
 ```mermaid
 flowchart TD
-    A[application.properties] --> B[@Value e @ConfigurationProperties]
+    A[application.properties] --> B[Value e ConfigurationProperties]
     B --> C[AppConfigProperties.java]
     C --> D[MessageController]
     D --> E[GET /message]
