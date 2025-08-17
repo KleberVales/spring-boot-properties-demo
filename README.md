@@ -35,3 +35,12 @@ spring-boot-properties-demo
 ```
 
 ## 📊 Fluxograma
+
+```mermaid
+flowchart TD
+    A[application.properties] --> B[@Value e @ConfigurationProperties]
+    B --> C[AppConfigProperties.java]
+    C --> D[MessageController]
+    D --> E[GET /message]
+    E --> F[Resposta com Mensagem + Versão + Porta]
+```
