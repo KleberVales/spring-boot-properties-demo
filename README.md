@@ -33,3 +33,5 @@ spring-boot-properties-demo
                  └── PropertiesDemoApplicationTests.java
 
 ```
+
+## 📊 Fluxograma
