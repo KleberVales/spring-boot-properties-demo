@@ -9,3 +9,5 @@ Projeto prático para demonstrar como utilizar Spring Boot Properties e Autoconf
 - Injetar propriedades com @Value.
 - Usar @ConfigurationProperties para agrupar configurações.
 - Customizar portas e propriedades da aplicação.
+
+## 📂 Estrutura de Pastas
